@@ -8,11 +8,11 @@ import Footer from "../Pages/Shared/Footer/Footer";
 
 const Main = () => {
   return (
-    <div>
+    <div className="container">
         <Header></Header>
       <Container>
         <Row>
-          <Col lg="2">
+          <Col lg="2" className="d-none d-lg-block">
            <LeftSideNav></LeftSideNav>
           </Col>
 
