@@ -17,9 +17,9 @@ const NewsSummaryCard = ({ news }) => {
               src={author.img}
               style={{ height: "3rem" }}
             ></Image>
-            <div className="d-flex align-items-center">
+            <div className="d-flex align-items-center flex-column">
               <p className="ms-3 fw-bold">{author.name}</p>
-              <p className="ms-3">{author.published_date}</p>
+              <p className="m-0">{author.published_date}</p>
             </div>
           </div>
 
