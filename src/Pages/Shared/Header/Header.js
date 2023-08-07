@@ -38,7 +38,7 @@ const Header = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto fw-bold">
-            <Nav.Link ><Link className="text-decoration-none fw-bold" to={"/"}>Home </Link></Nav.Link> 
+            < ><Link className="text-decoration-none fw-bold" to={"/"}>Home </Link></> 
              
               <NavDropdown title="News Categories" id="collasible-nav-dropdown">
                 <LeftSideNav></LeftSideNav>
@@ -47,14 +47,14 @@ const Header = () => {
 
             <div className="d-flex justify-content-center align-items-center">
              
-            <div>
+            <Link to={"/profile"}>
             {
                 user?.photoURL ?
                 <Image className="pe-2" style={{height:"2rem"}} roundedCircle src={user?.photoURL}></Image>
                 :
                 <FaUser></FaUser>
               }
-            </div>
+            </Link>
               
               <div>
 

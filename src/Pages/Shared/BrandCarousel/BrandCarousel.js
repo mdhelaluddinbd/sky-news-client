@@ -8,11 +8,11 @@ const BrandCarousel = () => {
     <div>
       <Carousel>
         <Carousel.Item>
-          <img className="img-fluid" src={Brand1} alt="" srcset="" />
+          <img className="img-fluid" src={Brand1} alt=""  />
           
         </Carousel.Item>
         <Carousel.Item>
-        <img className="img-fluid" src={Brand2} alt="" srcset="" />
+        <img className="img-fluid" src={Brand2} alt=""  />
           
         </Carousel.Item>
         

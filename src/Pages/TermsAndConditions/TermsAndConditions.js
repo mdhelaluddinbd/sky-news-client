@@ -1,10 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const TermsAndConditions = () => {
   return (
     <div>
       <h1>Our Terms & Conditions</h1>
-      <Link to={"/signup"}></Link>
+      <Link to={"/signup"}>Back</Link>
 
       <p>
         1. This template legal document was produced and published by SEQ Legal
