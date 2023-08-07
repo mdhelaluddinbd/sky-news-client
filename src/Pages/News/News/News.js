@@ -1,11 +1,12 @@
 import React from "react";
-import { Link, useLoaderData } from "react-router-dom";
+import { Link, useLoaderData,  } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
 const News = () => {
   const news = useLoaderData();
   const { image_url, title, details,category_id } = news;
+  console.log("This is news:",news)
 
   return (
     <div>

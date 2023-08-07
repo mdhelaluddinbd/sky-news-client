@@ -6,6 +6,7 @@ import { FaBookmark, FaShare, FaStar, FaEye } from "react-icons/fa6";
 
 const NewsSummaryCard = ({ news }) => {
   const { _id, author, details, image_url, title, total_view, rating } = news;
+ 
   return (
     <div>
       <Card className="mb-4">
