@@ -37,8 +37,8 @@ const Header = () => {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="me-auto fw-bold">
-            < ><Link className="text-decoration-none fw-bold" to={"/"}>Home </Link></> 
+            <Nav className="me-auto fw-bold align-items-center">
+            <div className=""><Link className="text-decoration-none fw-bold" to={"/"}>Home </Link></div> 
              
               <NavDropdown title="News Categories" id="collasible-nav-dropdown">
                 <LeftSideNav></LeftSideNav>
